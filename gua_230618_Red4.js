@@ -19,7 +19,7 @@ export JD_230618_Red_proxy='[{"host":"","port":"15320","auth":""},{"host":"10.0.
 
 
 
-0 10,20 * * * https://raw.githubusercontent.com/smiek2121/scripts/master/gua_230618_Red.js 618red
+10,40 0 * * * https://raw.githubusercontent.com/smiek2121/scripts/master/gua_230618_Red.js 618red
 
 */
 
