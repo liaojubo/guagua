@@ -40,8 +40,8 @@ if(acx==1){
 }
 require("global-agent/bootstrap");
 const dti = new Date(); 
-let ti = dti.getMinutes(); 
-if (ti < 30){ 
+let ti = dti.getHours(); 
+if (ti==0){ 
     global.GLOBAL_AGENT.HTTP_PROXY="http://159.75.240.92:5705";
     console.log('调用了付费代理池'); 
 }else{ 
